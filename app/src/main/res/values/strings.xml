@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PM1_P1_H3</string>
+
+    <string name="field_id">Id</string>
+    <string name="field_nombre">Nombre</string>
+    <string name="field_apellidos">Apellidos</string>
+    <string name="field_edad">Edad</string>
+    <string name="field_correo">Correo</string>
+    <string name="field_direccion">Direccion</string>
+</resources>

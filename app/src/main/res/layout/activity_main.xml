@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btConsultaPersona"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CONSULTAR PERSONA"/>
+
+    <Button
+        android:id="@+id/btCrearPersona"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CREAR PERSONA"/>
+
+    <Button
+        android:id="@+id/btRefrescarLista"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="REFRESCAR LISTA"/>
+
+    <ListView
+        android:id="@+id/lvPersonas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
